@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite --host 127.0.0.1\" \"nodemon backend/server.js\"",
+    "dev": "concurrently \"vite -p 5173\" \"nodemon backend/server.js\"",
+    "dev:fe": "vite",
+    "dev:be": "nodemon backend/server.js",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
