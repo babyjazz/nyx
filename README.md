@@ -31,6 +31,7 @@ To install and set up the library, run:
 $ node --version
 $ npm install
 ```
+
 ## **Usage**
 
 ### Serving the app
@@ -38,6 +39,7 @@ $ npm install
 ```sh
 $ npm run dev
 ```
+
 ### Running the tests
 
 ```sh
@@ -52,3 +54,12 @@ $ npm run build
 
 This task will create a distribution version of the project
 inside your local `dist/` folder
+
+## To run
+
+link that I implement is `/my-tokens`
+
+```
+http://localhost:5173/my-tokens
+```
+
